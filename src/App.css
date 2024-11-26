@@ -1,0 +1,137 @@
+/* Layout styles */
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Side panel styles */
+.side-design {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 300px;
+  background-color: #b0bae0;
+  padding: 20px;
+}
+
+.side-design h1 {
+  background-color: #6F7FB9;
+  color: white;
+  padding: 20px 40px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.package-logo {
+  margin-top: 20px;
+}
+
+/* Vertical line divider */
+.content-area {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 100px;
+  border-left: 2px solid black;
+  background-color: #ccd0e4;
+}
+
+/* Button panel styles */
+.button-panel {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-panel button {
+  padding: 10px 20px;
+  background-color: #6F7FB9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.button-panel button:hover {
+  background-color: #5a669c;
+}
+
+/* Dynamic content styles */
+.dynamic-content {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #e0e4ec;
+  border-radius: 8px;
+  min-height: 300px;
+}
+
+/* Content for specific actions */
+.empty-content {
+  color: #888;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Drag and Drop area */
+.drag-drop-area {
+  border: 2px dashed #6F7FB9;
+  padding: 40px;
+  text-align: center;
+  color: #6F7FB9;
+  margin-top: 10px;
+}
+
+/* Dropdown menu styles */
+.dropdown {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #6F7FB9;
+  border: 1px solid #6F7FB9;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 50px;
+  align-self: center;
+}
+
+.dropdown:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(111, 127, 185, 0.5);
+}
+
+/* Input box styles */
+.input-box {
+  width: 100%;
+  padding: 15px;
+  background-color: #ffffff;
+  color: #333;
+  border: 1px solid #6F7FB9;
+  border-radius: 5px;
+  font-size: 16px;
+  align-self: center;
+  margin: 20px;
+}
+
+.input-box:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(111, 127, 185, 0.5);
+}
+
+
+.action-buttons {
+  width : 100%;
+  align-self: center;
+  margin: 20px;
+}
+
+
+.drag-drop{
+  padding : 20 px
+}
